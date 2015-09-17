@@ -17,15 +17,16 @@ body {
 @media (min-width: 768px) {
   html,
   body {
-    padding: 1em 3em;
+    padding: 1em 0.5em;
   }
-}
-body {
-  overflow: hidden;
 }
 header,
 section {
   max-width: 960px;
+  margin: 0 auto;
+}
+header h1 {
+  text-align: center;
 }
 header p {
   text-align: justify;
@@ -77,7 +78,8 @@ a:hover {
   color: #56bafd;
 }
 div#botmakers {
-  height: 200px;
+  height: 180px;
+  margin: 0 auto;
   background: url('/images/botmakers.png') no-repeat;
 }
 .chromeframe {
