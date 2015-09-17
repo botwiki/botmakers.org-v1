@@ -86,7 +86,39 @@ div#botmakers {
   height: 180px;
   margin: 0 auto 4em;
   max-width: 100%;
-  background: url('/images/botmakers.png') no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+@media (min-width: 2001px) {
+  div#botmakers {
+    background-image: url('/images/botmakers.png');
+  }
+}
+@media (max-width: 2000px) {
+  div#botmakers {
+    background-image: url('/images/botmakers-1800.png');
+  }
+}
+@media (max-width: 1400px) {
+  div#botmakers {
+    background-image: url('/images/botmakers-1200.png');
+  }
+}
+@media (max-width: 1200px) {
+  div#botmakers {
+    background-image: url('/images/botmakers-1024.png');
+  }
+}
+@media (max-width: 960px) {
+  div#botmakers {
+    background-image: url('/images/botmakers-800.png');
+  }
+}
+@media (max-width: 600px) {
+  div#botmakers {
+    background-image: url('/images/botmakers-500.png');
+  }
 }
 footer {
   border-top: 1px solid silver;
