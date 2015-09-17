@@ -11,7 +11,7 @@ body {
   color: #525252;
   font-size: 1.2em;
   margin: 0;
-  padding: 1em;
+  padding: 0 2px;
   height: 100%;
 }
 @media (min-width: 800px) {
