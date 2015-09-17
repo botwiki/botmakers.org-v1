@@ -1,5 +1,6 @@
 @dark: #525252;
 @link-color: #3498DB;
+@site-width: 960px;
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -19,7 +20,7 @@ body{
 }
 header,
 section{
-  max-width: 960px;
+  max-width: @site-width;
   margin: 0 auto;
 }
 header p{
@@ -40,7 +41,6 @@ button{
   font-family: 'Merriweather Sans';
   display: block;
   width: 100%;
-  max-width: 960px;
   margin: 0 auto;
   padding: 10px;
   font-size: 0.8em;
@@ -81,6 +81,7 @@ a:hover{
 div#botmakers{
   height: 180px;
   margin: 0 auto 4em;
+  max-width: 100%;
   background: url('/images/botmakers.png') no-repeat;
 }
 footer{
@@ -88,6 +89,7 @@ footer{
     text-align: justify;
   }
   border-top: 1px solid silver;
+  margin: 0 auto;
 }
 footer ul{
   padding: 0;

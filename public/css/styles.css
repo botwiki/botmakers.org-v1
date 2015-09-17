@@ -43,7 +43,6 @@ button {
   font-family: 'Merriweather Sans';
   display: block;
   width: 100%;
-  max-width: 960px;
   margin: 0 auto;
   padding: 10px;
   font-size: 0.8em;
@@ -86,10 +85,12 @@ a:hover {
 div#botmakers {
   height: 180px;
   margin: 0 auto 4em;
+  max-width: 100%;
   background: url('/images/botmakers.png') no-repeat;
 }
 footer {
   border-top: 1px solid silver;
+  margin: 0 auto;
 }
 @media (min-width: 800px) {
   footer {
