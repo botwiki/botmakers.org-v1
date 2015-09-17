@@ -14,7 +14,7 @@ body {
   padding: 1em;
   height: 100%;
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   html,
   body {
     padding: 1em 0.5em;
@@ -28,8 +28,10 @@ section {
 header h1 {
   text-align: center;
 }
-header p {
-  text-align: justify;
+@media (min-width: 800px) {
+  header p {
+    text-align: justify;
+  }
 }
 section {
   min-height: 100%;
@@ -88,8 +90,12 @@ div#botmakers {
   background: url('/images/botmakers.png') no-repeat;
 }
 footer {
-  text-align: justify;
   border-top: 1px solid silver;
+}
+@media (min-width: 800px) {
+  footer {
+    text-align: justify;
+  }
 }
 footer ul {
   padding: 0;
