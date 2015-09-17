@@ -25,11 +25,6 @@ section {
   max-width: 960px;
   margin: 0 auto;
 }
-@media (min-width: 898px) {
-  header h1 {
-    text-align: center;
-  }
-}
 @media (min-width: 800px) {
   header p {
     text-align: justify;
@@ -82,9 +77,11 @@ a {
   color: #3498db;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
+  text-decoration: none;
 }
 a:hover {
   color: #56bafd;
+  text-decoration: underline;
 }
 div#botmakers {
   height: 180px;
