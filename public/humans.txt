@@ -1,6 +1,13 @@
-/* HELLO */
+  ;
+ ["]
+/[_]\ botmakers.org
+ ] [
 
-/* GET IN TOUCH */
+/* TEAM */
 
-stefan@fourtonfish.com
-twitter.com/fourtonfish
+https://github.com/orgs/botwiki/people
+
+/* SITE */
+
+Language: English
+Powered by: node.js
