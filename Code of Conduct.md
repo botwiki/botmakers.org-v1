@@ -9,7 +9,7 @@ This is a **living document** and will be amended as necessary. Any updates will
 
 If you are **being [harassed](#what-is-considered-harassment)** by any member of the **Botwiki.org** or **Botmakers.org** communities, **notice that someone else is being [harassed](#what-is-considered-harassment)**, or have **any other concerns**, please contact the administrators by typing `/admin <your message>` in Slack, or contact an admin directly via DM.
 
-***Note: Currently **stefan**/[@fourtonfish](https://twitter.com/fourtonfish) is the only administrator; this list will be updated.***
+***Note: Currently @stefan/[@fourtonfish](https://twitter.com/fourtonfish) is the only administrator; this list will be updated.***
 
 If you are being [harassed](#what-is-considered-harassment) by a member of the **Botwiki.org** and **Botmakers.org** communities outside of our online spaces, we still want to know about it.
 
