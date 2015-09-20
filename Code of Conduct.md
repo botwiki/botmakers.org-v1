@@ -24,7 +24,7 @@ We will **respect confidentiality requests** for the purpose of protecting victi
 - It is important that we resolve disagreements and differing views **constructively**. Being **unable** to understand why someone holds a viewpoint doesn't mean that they're wrong.
 - This **Code Of Conduct** also applies to **all of your bot creations** -- do not use them to harass, hurt, demean others.
 
-***An extra note on bots: We are a community of people who make "useful, interesting, artistic and friendly online bots". If you are going to create spammy, shady, scammy bots to gain traffic to your site, game the system of some other website, etc, you are not welcome in this community.***
+***An extra note on bots: We are a community of people who make "useful, interesting, artistic and friendly online bots". If you are going to create spammy, shady, scammy bots to gain traffic to your site, game the system of some other website, etc, this is not the right community for you.***
 
 By contributing to **Botwiki.org** and participating in the **Botmakers.org** community you agree to this **Code of Conduct**. Make sure you **read it and understand thoroughly**.  Participants asked to stop any [harassing behavior](#what-is-considered-harassment) are expected to comply **immediately**.
 
