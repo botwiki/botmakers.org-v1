@@ -57,4 +57,4 @@ This **Code of Conduct** is based on and inspired by:
 - [Django Code of Conduct](https://www.djangoproject.com/conduct/)
 - [LGBTQ in Technology Code of Conduct ](http://lgbtq.technology/coc.html)
 
-If you have any comments or questions, feel free to open an issue or pull request on this repo, or reach out directly to [@fourtonfish](https://twitter.com/fourtonfish) on Twitter or [via email](mailto:stefan@fourtonfish.com).
+If you have any comments or questions, feel free to open an issue or pull request on this repo, contact the **Botmakers.org** admins on Slack, or reach out directly to [@fourtonfish](https://twitter.com/fourtonfish) on Twitter or [via email](mailto:stefan@fourtonfish.com).
