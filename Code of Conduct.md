@@ -5,7 +5,7 @@
 
 This **Code of Conduct** applies equally to **every member of the Botwiki.org team and contributors and Botmakers.org community members** and in **all online and offline spaces** (examples include, but are not limited to, **private and public communication** in the **Botmakers.org** Slack group, emails, Twitter DMs, in-person contact, etc).
 
-This is a **living document** and will be amended as necessary. Any updates will be immediately communicated on the **#announcements** channel in the **Botmakers.org** Slack group.
+This is a **living document** and will be amended as necessary. Any updates will be immediately communicated on the **#announcements** channel in the **Botmakers.org** Slack group. You can also view [the history of changes](https://github.com/botwiki/botmakers.org/commits/master/Code%20of%20Conduct.md). 
 
 If you are **being [harassed](#what-is-considered-harassment)** by any member of the **Botwiki.org** or **Botmakers.org** communities, **notice that someone else is being [harassed](#what-is-considered-harassment)**, or have **any other concerns**, please contact the administrators via DM.
 
@@ -30,6 +30,8 @@ By contributing to **Botwiki.org** and participating in the **Botmakers.org** co
 
 If a participant engages in [harassing behavior](#what-is-considered-harassment), the **Botwiki.org** team and **Botmakers.org** administrators may take **any action they deem appropriate**, up to and including **expulsion** from all the **Botwiki.org** and **Botmakers.org** community spaces and identification of the participant as a **harasser** to other community members and/or the general public.
 
+Lastly, we are a community for sharing ideas. If someone comes up with something interesting, ask if you can join their project rather than "stealing" the idea for yourself. It's just a nice thing to do.
+
 ## What is considered harassment? 
   - Offensive comments related to **gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, race, immigration status, religion, or other identity marker**. This includes **anti-Indigenous/Nativeness and anti-Blackness**.
   - Unwelcome comments regarding a person’s **lifestyle choices and practices**, including those related to **food, health, parenting, drugs, and employment**.
@@ -48,6 +50,10 @@ If a participant engages in [harassing behavior](#what-is-considered-harassment)
   - Deliberate “outing” of any aspect of a person’s identity without their consent except as necessary to protect vulnerable people from intentional abuse
   - Publication of non-harassing private communication
   - Jokes that resemble the above, such as "hipster racism", still count as harassment even if meant satirically or ironically. See [this article](http://www.racialicious.com/2012/05/02/a-historical-guide-to-hipster-racism/) for background. 
+
+## On using Slack
+
+If you're new to Slack, be sure to check out [slack.com/is](https://slack.com/is) and for more advanced users, there is [Using slash commands](https://slack.zendesk.com/hc/en-us/articles/201259356-Using-slash-commands).
 
 ## Notes
 
