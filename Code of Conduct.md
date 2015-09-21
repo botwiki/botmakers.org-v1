@@ -30,7 +30,7 @@ By contributing to **Botwiki.org** and participating in the **Botmakers.org** co
 
 If a participant engages in [harassing behavior](#what-is-considered-harassment), the **Botwiki.org** team and **Botmakers.org** administrators may take **any action they deem appropriate**, up to and including **expulsion** from all the **Botwiki.org** and **Botmakers.org** community spaces and identification of the participant as a **harasser** to other community members and/or the general public.
 
-Lastly, we are a community for sharing ideas. If someone comes up with something interesting, ask if you can join their project rather than "stealing" the idea for yourself. It's just a nice thing to do.
+Lastly, we are a community for sharing ideas. If someone comes up with something interesting, **ask if you can join their project** rather than "stealing" the idea for yourself. It's just a nice thing to do.
 
 ## What is considered harassment? 
   - Offensive comments related to **gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, race, immigration status, religion, or other identity marker**. This includes **anti-Indigenous/Nativeness and anti-Blackness**.
