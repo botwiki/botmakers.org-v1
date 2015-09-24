@@ -45,7 +45,14 @@ app.post('/invite', function(req, res) {
 
           switch(error_message){
             case 'already_invited':
-              error_message = 'Looks like you were already invited. Please check your inbox again or <a href="https://botmakers.slack.com/">click here</a> to sign in. If you\'re still having a problem, please contact <a href="mailto:stefan@fourtonfish.com">stefan@fourtonfish.com</a>.'
+            case 'sent_recently':
+              error_message = 'Looks like you were already invited. Please check your inbox again. If you didn\'t get your invitation, please contact <a href="mailto:stefan@fourtonfish.com">stefan@fourtonfish.com</a> or <a href="https://twitter.com/fourtonfish">@fourtonfish</a> on Twitter.<br/>Thanks!';
+            break;
+            case 'already_in_team':
+              error_message = 'Good news, you are already a member! <a href="https://botmakers.slack.com/">Click here</a> to sign in. If you\'re having a problem, please contact <a href="mailto:stefan@fourtonfish.com">stefan@fourtonfish.com</a> or <a href="https://twitter.com/fourtonfish">@fourtonfish</a> on Twitter.<br/>Thanks!';
+            break;
+            default:
+              error_message = 'Looks like an unhandled error. Can you contact <a href="mailto:stefan@fourtonfish.com">stefan@fourtonfish.com</a> or <a href="https://twitter.com/fourtonfish">@fourtonfish</a> on Twitter and say you got this error message? Thanks!<br/><tt>' + error_message + '</tt>';
             break;
           }
 
