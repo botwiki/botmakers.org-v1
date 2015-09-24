@@ -24,13 +24,18 @@ We will respect confidentiality requests for the purpose of protecting victims o
 - It is important that we resolve disagreements and differing views **constructively**. Being **unable** to understand why someone holds a viewpoint doesn't mean that they're wrong.
 - This **Code Of Conduct** also applies to **all of your bot creations** -- do not use them to harass, hurt, demean others.
 
-***An extra note on bots: We are a community of people who make "useful, interesting, artistic and friendly online bots". If you are going to create spammy, shady, scammy bots to gain traffic to your site, game the system of some other website, etc, this is not the right community for you.***
+***An extra note on bots: We are a community of people who make "useful, interesting, artistic and friendly online bots". If you are going to create spammy, shady, scammy bots to gain traffic to your site, game the system of some other website, etc, this is not the right community for you.*** 
+
+**¯\\\_(ツ)\_/¯**
 
 By contributing to [Botwiki.org](https://botwiki.org/) and participating in the [Botmakers.org](https://botmakers.org/) community you agree to this **Code of Conduct**. Make sure you **read it and understand thoroughly**.  Participants asked to stop any [harassing behavior](#what-is-considered-harassment) are expected to comply immediately.
 
 If a participant engages in [harassing behavior](#what-is-considered-harassment), the [Botwiki.org](https://botwiki.org/) team and [Botmakers.org](https://botmakers.org/) administrators may take any action they deem appropriate, up to and including expulsion from all the [Botwiki.org](https://botwiki.org/) and [Botmakers.org](https://botmakers.org/) community spaces and identification of the participant as a harasser to other community members and/or the general public.
 
 Lastly, we are a community for sharing ideas. If someone comes up with something interesting, ask if you can join their project rather than "stealing" the idea for yourself. It's just a nice thing to do.
+
+If you do need some ideas to work on, have a look at the [Bot Summit 2014 document](https://docs.google.com/document/d/1bka4o1RE9RPUeoUzgpTIKRWsgWHzZEKEADialnv7haQ/edit?pli=1) or browse the [#botIDEA](https://twitter.com/search?f=tweets&q=%23botIDEA) hashtag on Twitter. 
+
 
 ## What is considered harassment? 
   - Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, race, immigration status, religion, or other identity marker. This includes anti-Indigenous/Nativeness and anti-Blackness.
