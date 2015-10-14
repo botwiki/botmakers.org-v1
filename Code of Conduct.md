@@ -58,7 +58,7 @@ If you do need some ideas to work on, have a look at the [Bot Summit 2014 docume
 
 ## Language and communication
 
-The main goal of Botwiki.org is to create a safe online space where everyone is welcome. Making this happen will require effort from everyone participating in our community.
+One of the main goals of [Botwiki.org](https://botwiki.org/) and [Botmakers.org](https://botmakers.org/) is to create a safe online space where everyone is welcome. Making this happen will require effort from everyone participating in our project and our community.
 
 There will be some technical tools put in place that will make this easier -- our Slack bot will be trained to recognize offensive langague and privately notify the person who probably just didn't know they were using terms that others find offensive. Until then, I'd like to ask everyone to read about ableist language, with some great resources being:
 
@@ -66,11 +66,13 @@ There will be some technical tools put in place that will make this easier -- ou
  - [List of disability-related terms with negative connotations](https://en.wikipedia.org/wiki/List_of_disability-related_terms_with_negative_connotations)
  - [Alternatives to using ableist slurs](http://isthisableism.tumblr.com/sluralternatives)
 
-(More links coming soon!)
+*(More links coming soon.)*
 
 If you see anyone using terms you find offensive or you believe would be offensive to certain groups of people, try reaching out to the person privately. The person probably meant no offense and public shaming -- or worse, attacks -- will not solve anything.
 
-Also, be very careful about misunderstandings. These may happen particularly when all the nuances of communication, like body language, tone of voice are stripped away, like in an online group. Also, remember that we are a group of people from all over the world, so people whose first language is not English will very likely learn about ableist language as a brand new concept.
+I also suggest to update the message using more appropriate language.
+
+Also, be **very careful** about misunderstandings. These may happen particularly when all the nuances of communication, like body language or tone of voice are stripped away, like in an online setting. Also, remember that we are a group of people from all over the world, so people whose first language is not English will very likely learn about ableist language as a brand new concept.
 
 **Always contact the person you feel is being offensive** and try to talk it out, **then contact the moderator**, if necessary.
 
