@@ -77,6 +77,16 @@ Also, be **very careful** about misunderstandings. These may happen particularly
 **Always contact the person you feel is being offensive** and try to talk it out, **then contact the moderator**, if necessary.
 
 
+***Personal note:***
+
+This stuff is *hard* and there are some gray areas, so if you have any questions, ask in the [#code-of-conduct](https://botmakers.slack.com/messages/code-of-conduct/) channel.
+
+Our general rule of thumb for identifying slurs is that slurs are basically words/expressions that describe things people can't change about themselves while actually meaning "bad".
+
+Again, any questions -- visit the [#code-of-conduct](https://botmakers.slack.com/messages/code-of-conduct/) channel.
+
+*-- Stefan*
+
 ## On using Slack
 
 If you're new to Slack, be sure to check out [slack.com/is](https://slack.com/is) and for more advanced users, there is [Using slash commands](https://slack.zendesk.com/hc/en-us/articles/201259356-Using-slash-commands).
