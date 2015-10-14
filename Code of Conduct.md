@@ -56,6 +56,25 @@ If you do need some ideas to work on, have a look at the [Bot Summit 2014 docume
   - Publication of non-harassing private communication
   - Jokes that resemble the above, such as "hipster racism", still count as harassment even if meant satirically or ironically. See [this article](http://www.racialicious.com/2012/05/02/a-historical-guide-to-hipster-racism/) for background. 
 
+## Language and communication
+
+The main goal of Botwiki.org is to create a safe online space where everyone is welcome. Making this happen will require effort from everyone participating in our community.
+
+There will be some technical tools put in place that will make this easier -- our Slack bot will be trained to recognize offensive langague and privately notify the person who probably just didn't know they were using terms that others find offensive. Until then, I'd like to ask everyone to read about ableist language, with some great resources being:
+
+ - [Doing Social Justice: 10 Reasons to Give Up Ableist Language](http://www.huffingtonpost.com/rachel-cohenrottenberg/doing-social-justice-thou_b_5476271.html)
+ - [List of disability-related terms with negative connotations](https://en.wikipedia.org/wiki/List_of_disability-related_terms_with_negative_connotations)
+ - [Alternatives to using ableist slurs](http://isthisableism.tumblr.com/sluralternatives)
+
+(More links coming soon!)
+
+If you see anyone using terms you find offensive or you believe would be offensive to certain groups of people, try reaching out to the person privately. The person probably meant no offense and public shaming -- or worse, attacks -- will not solve anything.
+
+Also, be very careful about misunderstandings. These may happen particularly when all the nuances of communication, like body language, tone of voice are stripped away, like in an online group. Also, remember that we are a group of people from all over the world, so people whose first language is not English will very likely learn about ableist language as a brand new concept.
+
+**Always contact the person you feel is being offensive** and try to talk it out, **then contact the moderator**, if necessary.
+
+
 ## On using Slack
 
 If you're new to Slack, be sure to check out [slack.com/is](https://slack.com/is) and for more advanced users, there is [Using slash commands](https://slack.zendesk.com/hc/en-us/articles/201259356-Using-slash-commands).
