@@ -60,7 +60,7 @@ If you do need some ideas to work on, have a look at the [Bot Summit 2014 docume
 
 One of the main goals of [Botwiki.org](https://botwiki.org/) and [Botmakers.org](https://botmakers.org/) is to create a safe online space where everyone is welcome. Making this happen will require effort from everyone participating in our project and our community.
 
-There will be some technical tools put in place that will make this easier -- our Slack bot will be trained to recognize offensive langague and privately notify the person who probably just didn't know they were using terms that others find offensive. Until then, I'd like to ask everyone to read about ableist language, with some great resources being:
+There will be some technical tools put in place that will make this easier -- our Slack bot will be trained to recognize offensive language and privately notify the person who probably just didn't know they were using terms that others find offensive. Until then, I'd like to ask everyone to read about ableist language, with some great resources being:
 
  - [Doing Social Justice: 10 Reasons to Give Up Ableist Language](http://www.huffingtonpost.com/rachel-cohenrottenberg/doing-social-justice-thou_b_5476271.html)
  - [List of disability-related terms with negative connotations](https://en.wikipedia.org/wiki/List_of_disability-related_terms_with_negative_connotations)
