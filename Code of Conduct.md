@@ -38,7 +38,7 @@ If you do need some ideas to work on, have a look at the [Bot Summit 2014 docume
 
 
 ## What is considered harassment? 
-  - Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, race, immigration status, religion, or other identity marker. This includes anti-Indigenous/Nativeness and anti-Blackness.
+  - Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, race, immigration status, religion, or other identity marker. This includes anti-indigenous/nativeness and anti-blackness.
   - Unwelcome comments regarding a person’s lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment.
   - Deliberate misgendering
   - Gratuitous or off-topic sexual images or behaviour
