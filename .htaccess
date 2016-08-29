@@ -1,0 +1,4 @@
+Options -Indexes
+
+RedirectMatch "^/coc" "https://github.com/botwiki/botmakers.org/blob/master/Code%20of%20Conduct.md"
+RedirectMatch "^/code-of-conduct" "https://github.com/botwiki/botmakers.org/blob/master/Code%20of%20Conduct.md"

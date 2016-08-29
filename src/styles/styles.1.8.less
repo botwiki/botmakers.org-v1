@@ -1,0 +1,132 @@
+@main-color: #fff;
+@background-color: #170c0c;
+@link-color: #fff;
+@site-width: 1200px;
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html,
+body{
+  font-family: "Source Serif Pro", serif;
+  color: @main-color;
+  text-shadow: 0 0 2px #323232;
+  font-size: 1.3em;
+  margin: 0;
+  min-height: 100%;
+  background-color: @background-color;
+  height: 100%;
+}
+header,
+section{
+  max-width: @site-width;
+  margin: 0 auto;
+}
+#content{
+  background: url('../images/botwiki-edit-a-thon.jpg') center top no-repeat;
+  box-shadow: 0 5px 40px rgba(0,0,0,0.6);
+  min-height: 100%;
+}
+header p{
+  @media (min-width: 800px) {
+    text-align: justify;
+  }
+}
+section{
+  font-weight: bold;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+h1,form,p{
+  padding: 0.5rem 1rem;
+}
+form{
+  margin-bottom: 3em;
+  content:"";
+  display:block;
+  clear:both;
+}
+input,
+button{
+  font-family: 'Merriweather Sans';
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 0.8em;
+  padding: 20px;
+  cursor: pointer;
+}
+input{
+  border: 5px solid @main-color;
+  float: none;
+  width: 100%;
+  @media(min-width: 900px){
+    width: 60%;
+    float: left;
+    height: 3em;
+  }
+}
+input:focus{
+  border-color:  @main-color + #555;
+  outline: none;
+  cursor: text;
+}
+input,
+input:focus{
+  transition: border-color 0.3s;
+}
+button{
+  color: #fff;
+  font-weight: bold;
+  background: @background-color;
+  text-align: center;
+  border: 1px solid @background-color;
+  width: 100%;
+  margin-top: 1em;
+  border: 3px solid @background-color + #222;
+  @media(min-width: 900px){
+    width: 40%;
+    height: 3em;
+    float: right;
+    margin-top: 0em;
+    border: none;
+  } 
+}
+h1{
+  font-size: 2em;
+  text-align: center;
+  margin-top: 0;
+}
+a{
+  color: @link-color;
+  transition: color 0.5s;
+}
+a:hover{
+  color: @link-color + #222;
+}
+footer{
+  font-weight: normal;
+  margin: 0 auto;
+  padding-top: 1em;
+  p{
+    border-top: 1px solid @background-color;
+    margin: 0 1em 0;
+    padding: 2em 0 2em;
+  }
+}
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 5px;
+}
+img.logo-slack{
+  max-width: 100px;
+  vertical-align: bottom;
+}
+/* Animations */
+
+.unshifted{
+  transition: transform 0.4s, opacity 1s;
+}
