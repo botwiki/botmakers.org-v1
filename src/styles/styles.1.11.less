@@ -1,7 +1,7 @@
 @main-color: #525252;
 @background-color: #170c0c;
 @link-color: #333;
-@site-width: 1500px;
+@site-width: 1300px;
 @site-width-mobile: 800px;
 
 *, *:before, *:after {
@@ -50,7 +50,7 @@ h1,form,p{
 }
 form{
   max-width: 960px;
-  margin: 1em auto 3em;
+  margin: 0 auto 4em;
   content:"";
   display:block;
   clear:both;
@@ -65,7 +65,7 @@ button{
   cursor: pointer;
 }
 input{
-  border: 5px solid @main-color;
+  border: 5px solid @background-color;
   float: none;
   width: 100%;
   @media(min-width: @site-width-mobile){
@@ -75,7 +75,7 @@ input{
   }
 }
 input:focus{
-  border-color:  @main-color + #555;
+  border-color:  @background-color + #333;
   outline: none;
   cursor: text;
 }
