@@ -41,6 +41,9 @@
     "gulp-notify": "^1.2.5",
     "gulp-rename": "^1.2.0",
     "gulp-uglify": "^0.3.0",
+    "imagemin-gifsicle": "^5.1.0",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-pngquant": "^5.0.0",
     "tiny-lr": "0.0.7"
   },
   "scripts": {

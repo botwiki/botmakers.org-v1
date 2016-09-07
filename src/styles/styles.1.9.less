@@ -1,7 +1,8 @@
-@main-color: #fff;
+@main-color: #525252;
 @background-color: #170c0c;
-@link-color: #fff;
-@site-width: 1200px;
+@link-color: #333;
+@site-width: 1500px;
+@site-width-mobile: 800px;
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -11,12 +12,13 @@ html,
 body{
   font-family: "Source Serif Pro", serif;
   color: @main-color;
-  text-shadow: 0 0 2px #323232;
   font-size: 1.3em;
   margin: 0;
   min-height: 100%;
-  background-color: @background-color;
   height: 100%;
+}
+body{
+  background: url('../images/geometry.png');  
 }
 header,
 section{
@@ -24,12 +26,15 @@ section{
   margin: 0 auto;
 }
 #content{
-  background: url('../images/botwiki-edit-a-thon.jpg') center top no-repeat;
-  box-shadow: 0 5px 40px rgba(0,0,0,0.6);
   min-height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 100px #efefef;
+  @media (min-width: @site-width) {
+    padding: 1em 5em;
+  }
 }
 header p{
-  @media (min-width: 800px) {
+  @media (min-width: @site-width-mobile) {
     text-align: justify;
   }
 }
@@ -41,9 +46,11 @@ section{
 }
 h1,form,p{
   padding: 0.5rem 1rem;
+  margin: 2em 0;
 }
 form{
-  margin-bottom: 3em;
+  max-width: 960px;
+  margin: 1em auto 3em;
   content:"";
   display:block;
   clear:both;
@@ -61,7 +68,7 @@ input{
   border: 5px solid @main-color;
   float: none;
   width: 100%;
-  @media(min-width: 900px){
+  @media(min-width: @site-width-mobile){
     width: 60%;
     float: left;
     height: 3em;
@@ -85,7 +92,7 @@ button{
   width: 100%;
   margin-top: 1em;
   border: 3px solid @background-color + #222;
-  @media(min-width: 900px){
+  @media(min-width: @site-width-mobile){
     width: 40%;
     height: 3em;
     float: right;
@@ -96,7 +103,7 @@ button{
 h1{
   font-size: 2em;
   text-align: center;
-  margin-top: 0;
+  margin: 1em auto;
 }
 a{
   color: @link-color;
@@ -106,13 +113,14 @@ a:hover{
   color: @link-color + #222;
 }
 footer{
+  border-top: 1px solid @main-color + #888;
+  font-size: 0.8em;
   font-weight: normal;
   margin: 0 auto;
   padding-top: 1em;
   p{
-    border-top: 1px solid @background-color;
-    margin: 0 1em 0;
-    padding: 2em 0 2em;
+    margin: 0 1em;
+    padding: 1em 0;
   }
 }
 .chromeframe {
@@ -121,10 +129,33 @@ footer{
   color: #000;
   padding: 5px;
 }
+
+img.logo{
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  max-width: @site-width/2;
+}
+
 img.logo-slack{
   max-width: 100px;
   vertical-align: bottom;
 }
+
+.keep-together{
+  @media (min-width: @site-width-mobile) {
+    white-space: nowrap;
+  }
+}
+
+a.hashtag{
+  font-style: italic;
+  text-decoration: none;
+}
+a.hashtag:hover{
+  text-decoration: underline;
+}
+
 /* Animations */
 
 .unshifted{
