@@ -120,6 +120,11 @@ a {
 a:hover {
   color: #555555;
 }
+iframe.twitter-tweet,
+blockquote.twitter-tweet,
+twitterwidget {
+  margin: 2em auto !important;
+}
 footer {
   border-top: 1px solid #dadada;
   font-size: 0.8em;
