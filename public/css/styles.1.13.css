@@ -1,0 +1,173 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Source Serif Pro", serif;
+  color: #525252;
+  font-size: 1.3em;
+  margin: 0;
+  min-height: 100%;
+  height: 100%;
+}
+body {
+  background: url('../images/geometry.png');
+}
+header,
+section {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+#content {
+  min-height: 100%;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 100px #efefef;
+  box-shadow: 0 0 100px #efefef;
+}
+@media (min-width: 1300px) {
+  #content {
+    padding: 1em 5em;
+  }
+}
+@media (min-width: 800px) {
+  header p {
+    text-align: justify;
+  }
+}
+section {
+  font-weight: bold;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+h1,
+form,
+p {
+  padding: 0.5rem 1rem;
+  margin: 2em 0;
+}
+form {
+  max-width: 960px;
+  margin: 0 auto 4em;
+  content: "";
+  display: block;
+  clear: both;
+}
+input,
+button {
+  font-family: 'Merriweather Sans';
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 0.8em;
+  padding: 20px;
+  cursor: pointer;
+}
+input {
+  border: 5px solid #170c0c;
+  float: none;
+  width: 100%;
+}
+@media (min-width: 800px) {
+  input {
+    width: 60%;
+    float: left;
+    height: 3em;
+  }
+}
+input:focus {
+  border-color: #4a3f3f;
+  outline: none;
+  cursor: text;
+}
+input,
+input:focus {
+  -webkit-transition: border-color 0.3s;
+  transition: border-color 0.3s;
+}
+button {
+  color: #fff;
+  font-weight: bold;
+  background: #170c0c;
+  text-align: center;
+  border: 1px solid #170c0c;
+  width: 100%;
+  margin-top: 1em;
+  border: 3px solid #392e2e;
+}
+@media (min-width: 800px) {
+  button {
+    width: 40%;
+    height: 3em;
+    float: right;
+    margin-top: 0em;
+    border: none;
+  }
+}
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin: 1em auto;
+}
+a {
+  color: #333333;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+a:hover {
+  color: #555555;
+}
+blockquote.twitter-tweet,
+twitterwidget {
+  margin: 2em auto !important;
+}
+footer {
+  border-top: 1px solid #dadada;
+  font-size: 0.8em;
+  font-weight: normal;
+  margin: 0 auto;
+  padding-top: 1em;
+}
+footer p {
+  margin: 0 1em;
+  padding: 1em 0;
+}
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 5px;
+}
+img.logo {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  max-width: 650px;
+}
+img.logo-slack {
+  max-width: 100px;
+  vertical-align: bottom;
+}
+@media (min-width: 800px) {
+  .keep-together {
+    white-space: nowrap;
+  }
+}
+a.hashtag {
+  font-style: italic;
+  text-decoration: none;
+}
+a.hashtag:hover {
+  text-decoration: underline;
+}
+.center-text {
+  text-align: center;
+}
+/* Animations */
+.unshifted {
+  -webkit-transition: -webkit-transform 0.4s, opacity 1s;
+  transition: transform 0.4s, opacity 1s;
+}
