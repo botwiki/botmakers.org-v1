@@ -48,7 +48,7 @@ section{
   border-left: 1px solid @main-color + #9a9a9a;
   border-right: 1px solid @main-color + #9a9a9a;
 }
-h1,form,p{
+form,p{
   padding: 0.5rem 1rem;
   margin: 2em 0;
 }
@@ -107,7 +107,10 @@ button{
 h1{
   font-family: "Lobster";
   font-size: 4em;
-  font-size: 7vmax;
+  font-size: 13vmax;
+  @media(min-width: @site-width-mobile){
+    font-size: 12vmax;
+  }
   text-align: center;
   font-weight: normal;
   margin: 1rem auto 0;
