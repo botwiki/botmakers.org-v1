@@ -111,15 +111,10 @@ button {
 h1 {
   font-family: "Lobster";
   font-size: 4em;
-  font-size: 13vmax;
+  font-size: 12vmax;
   text-align: center;
   font-weight: normal;
   margin: 1rem auto 0;
-}
-@media (min-width: 800px) {
-  h1 {
-    font-size: 12vmax;
-  }
 }
 a {
   color: #333333;
@@ -153,6 +148,7 @@ img.logo {
   max-width: 650px;
 }
 img.logo-slack {
+  height: 1.1em;
   max-width: 100px;
   vertical-align: bottom;
 }
