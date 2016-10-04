@@ -2,6 +2,10 @@
 
 On top of a few people testing their bots, we have the following integrations:
 
+## Dopewars Bot
+
+[dopewarsbot.com](https://dopewarsbot.com): *Make a fortune dealing drugs on the streets of new york... on Slack.*
+
 ## slack-pokemon
 
 [![slack-pokemon](https://botwiki.org/content/bots/slackbots/images/slack-pokemon.png)](https://botwiki.org/bots/slackbots/slack-pokemon/)
