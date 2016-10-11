@@ -31,6 +31,8 @@ Enjoy!
 
 A few more notes:
 
+Please remove `{{> userengage }}` from `/views/layouts/main.handlebars`. (This is a script from [userengage.io](https://userengage.io/)). You can also remove the actual file `/views/partials/userengage.handlebars`.
+
 About the **step 3** above: If you don't need to include this code, you can simply leave the file empty, but note that this file is by deafult not going to be committed, so you will have to either update `.gitignore` to remove the file from the list, or, if you want to keep your site's code open, upload this file separately.
 
 You can also edit the file `main/handlebars` inside the `views/layouts` folder and remove the line that says `{{> visitor_stats }}` and get rid of the file completely.
