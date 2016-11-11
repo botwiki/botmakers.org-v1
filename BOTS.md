@@ -34,13 +34,6 @@ The original idea behind MeMoji was to have people create their own games (using
 
 For more commands see [memoji.mod.bz](https://memoji.mod.bz/).
 
-## XOR.ai
-
-> The XOR.ai app lets you hire tech talent from online professional communities (developers, data scientists, designers, etc), and also our search engine has access to 12 million developers (based on GitHub, Stackoverflow and Bitbucket accounts) and reaches those cold candidates for you. With XOR you can hire and manage the candidates directly from your Slack, Telegram, or Facebook messenger.
-
-[Privacy policy.](http://xor.ai/privacy)
-
-
 ## @botwikibot/Sidekick
 
 [![Sidekick](http://getyoursidekick.org/images/reaction-retweet.png)](http://getyoursidekick.org/)
