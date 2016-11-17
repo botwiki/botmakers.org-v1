@@ -38,7 +38,7 @@ app.post('/invite', function(req, res) {
         if (body.ok) {
           res.render('done', {
             header: 'Success!',
-            message: 'Check <em>'+ req.body.email +'</em> for an invite from Slack! If you have any question, feel free to reach out to <a href="mailto:stefan@fourtonfish.com">stefan@fourtonfish.com</a> (or <a href="https://twitter.com/fourtonfish">@fourtonfish</a> on Twitter).</p><p class="shifted">Looking forward to seeing you in our community :-)'
+            message: 'Check <em>'+ req.body.email +'</em> for an invite from Slack! If you have any questions, feel free to reach out to <a href="mailto:stefan@fourtonfish.com">stefan@fourtonfish.com</a> (or <a href="https://twitter.com/fourtonfish">@fourtonfish</a> on Twitter).</p><p class="shifted">Looking forward to seeing you in our community :-)'
           });
         } else {
           var error_message = body.error;
