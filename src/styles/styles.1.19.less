@@ -1,7 +1,7 @@
 @main-color: #525252;
 @background-color: #170c0c;
 @link-color: #333;
-@site-width: 1300px;
+@site-width: 1200px;
 @site-width-mobile: 800px;
 
 *, *:before, *:after {
@@ -24,15 +24,19 @@ header,
 section,
 footer{
   width: 95%;
-  max-width: @site-width;
   margin: 0 auto;
 }
 
-#content{
+section#content{
   min-height: 100%;
   background-color: #fff;
   @media (min-width: @site-width) {
     padding: 1em 2em;
+  }
+  div#content-inner{
+    max-width: @site-width;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 header p{
@@ -111,6 +115,9 @@ h1{
   text-align: center;
   font-weight: normal;
   margin: 1rem auto 0;
+  @media(max-width: @site-width-mobile){
+      font-size: 8vmax;
+  }
 }
 a{
   color: @link-color;

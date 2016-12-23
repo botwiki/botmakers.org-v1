@@ -21,17 +21,21 @@ header,
 section,
 footer {
   width: 95%;
-  max-width: 1300px;
   margin: 0 auto;
 }
-#content {
+section#content {
   min-height: 100%;
   background-color: #fff;
 }
-@media (min-width: 1300px) {
-  #content {
+@media (min-width: 1200px) {
+  section#content {
     padding: 1em 2em;
   }
+}
+section#content div#content-inner {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
 }
 @media (min-width: 800px) {
   header p {
@@ -116,6 +120,11 @@ h1 {
   font-weight: normal;
   margin: 1rem auto 0;
 }
+@media (max-width: 800px) {
+  h1 {
+    font-size: 8vmax;
+  }
+}
 a {
   color: #333333;
   -webkit-transition: color 0.5s;
@@ -145,7 +154,7 @@ img.logo {
   display: block;
   margin: 0 auto;
   width: 20%;
-  max-width: 650px;
+  max-width: 600px;
 }
 img.logo-slack {
   height: 1.1em;
