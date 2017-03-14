@@ -43,6 +43,7 @@
     "gulp-uglify": "^0.3.0",
     "imagemin-gifsicle": "^5.1.0",
     "imagemin-jpegtran": "^5.0.2",
+    "imagemin-optipng": "^5.2.1",
     "imagemin-pngquant": "^5.0.0",
     "tiny-lr": "0.0.7"
   },
