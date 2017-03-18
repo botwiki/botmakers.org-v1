@@ -5,7 +5,14 @@ var express = require('express'),
     bodyParser = require('body-parser'),
     app = express(),
     server = http.Server(app),
-    config = require('./config.js');
+    config = require('./config.js'),
+    community_info = {
+      community_name: config.community_name,
+      community_description: config.community_description,
+      slack_url: config.slack_url,
+      contact: config.contact
+    };
+
 
 var loggingEnabled = false;
 
@@ -26,43 +33,37 @@ app.get('/', function (req, res) {
 app.post('/invite', function(req, res) {
   if (req.body.email) {
     request.post({
-        url: 'https://'+ config.slackUrl + '/api/users.admin.invite',
+        url: config.slack_url + '/api/users.admin.invite',
         form: {
           email: req.body.email,
-          token: config.slacktoken,
+          token: config.slack_token,
           set_active: true
         }
       }, function(err, httpResponse, body) {
         if (err) { return res.send('Error:' + err); }
         body = JSON.parse(body);
         if (body.ok) {
-          res.render('done', {
-            header: 'Success!',
-            message: 'Check <em>'+ req.body.email +'</em> for an invite from Slack! If you have any questions, feel free to reach out to <a href="mailto:stefan@fourtonfish.com">stefan@fourtonfish.com</a> (or <a href="https://twitter.com/fourtonfish">@fourtonfish</a> on Twitter).</p><p class="shifted">Looking forward to seeing you in our community :-)'
-          });
+          community_info.user_email = req.body.email;
+          res.render('success', community_info);
         } else {
           var error_message = body.error;
 
           switch(error_message){
             case 'already_invited':
             case 'sent_recently':
-              error_message = 'Looks like you were already invited. Please check your inbox again. If you didn\'t get your invitation, please contact <a href="mailto:stefan@fourtonfish.com">stefan@fourtonfish.com</a> or <a href="https://twitter.com/fourtonfish">@fourtonfish</a> on Twitter.<br/>Thanks!';
-            break;
+              res.render('recently-invited', community_info);
+              break;
             case 'already_in_team':
-              error_message = 'Good news, you are already a member! <a href="https://botmakers.slack.com/">Click here</a> to sign in. If you\'re having a problem, please contact <a href="mailto:stefan@fourtonfish.com">stefan@fourtonfish.com</a> or <a href="https://twitter.com/fourtonfish">@fourtonfish</a> on Twitter.<br/>Thanks!';
-            break;
+              res.render('already-member', community_info);
+              break;
             case 'invalid_email':
-              error_message = 'That email doesn\'t look quite right. Mind going back and trying again?';
+              res.render('invalid-email', community_info);
             break;            
             default:
-              error_message = 'Looks like an unhandled error. Can you contact <a href="mailto:stefan@fourtonfish.com">stefan@fourtonfish.com</a> or <a href="https://twitter.com/fourtonfish">@fourtonfish</a> on Twitter and say you got this error message? Thanks!<br/><tt>' + error_message + '</tt>';
+              community_info.error_message = error_message;
+              res.render('invalid-email', community_info);
             break;
           }
-
-          res.render('done', {
-            header: 'Oops.',
-            message: error_message
-          });
         }
       });
   } else {

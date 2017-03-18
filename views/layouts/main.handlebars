@@ -20,7 +20,7 @@
   <!--[if lt IE 9]>
   <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->  
-  <link rel="stylesheet" href="css/styles.1.20.min.css">
+  <link rel="stylesheet" href="css/styles.1.21.min.css">
   <meta name="msapplication-TileColor" content="#FFFFFF">
   <meta name="msapplication-TileImage" content="images/favicon-144.png">
   <link rel="shortcut icon" href="images/favicon.ico"/>
@@ -31,11 +31,11 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro|Merriweather+Sans|Lobster" rel="stylesheet" type="text/css">
 </head>
 <body>
-<script>
-  var node = document.createElement('style');
-  node.innerHTML = '.shifted{-webkit-transition:all 1s;transition:all 1s;-webkit-transform:translate(0,10px);-ms-transform:translate(0,10px);transform:translate(0,10px);opacity:0}';
-  document.body.appendChild(node);
-</script>
+  <script>
+    var node = document.createElement('style');
+    node.innerHTML = '.shifted{-webkit-transition:all 1s;transition:all 1s;-webkit-transform:translate(0,10px);-ms-transform:translate(0,10px);transform:translate(0,10px);opacity:0}';
+    document.body.appendChild(node);
+  </script>
   <!--[if lt IE 7]>
     <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="//browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
@@ -44,8 +44,17 @@
       <a href="/"><img title="Hello, human! BEEP" class="logo" src="/images/robot-face-emoji-one.svg"></a>
       {{{body}}}
     </div>
+
+    <footer class="shifted">
+      <p>
+        <strong>Botmakers</strong> is the official <a href="https://botwiki.org/">Botwiki</a> community, maintained by the <a href="https://github.com/botwiki">Botwiki team</a> and hosted by <a href="https://slack.com/is">Slack</a>. <strong>All members must read and follow our <a href="https://botwiki.org/coc/">Code of Conduct</a>.</strong>
+
+        Source of this page is <a href="https://github.com/botwiki/botmakers.org">available on GitHub</a>. Any questions? Need help? Reach out to  <a href="mailto:stefan@botwiki.org?cc=v@veronicabelmont.com">the Botwiki team</a> (<a href="https://twitter.com/botwikidotorg">@botwikidotorg</a> on Twitter)! And check out the <a href="https://github.com/botwiki/botmakers.org/blob/master/BOTS.md">bots we're playing with</a> :-)</p>
+
+      <p>Image credits: <a href="http://subtlepatterns.com/">subtlepatterns.com</a>, <a href="http://emojione.com/">emojione.com</a>.</p>
+    </footer>
   </section>
-  <script defer src="js/scripts.1.1.min.js"></script>
+  <script defer src="js/scripts.1.2.min.js"></script>
   {{> visitor_stats }}
   </body>
 </html>

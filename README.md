@@ -10,9 +10,7 @@ Also, here's a [list of bots](https://github.com/botwiki/botmakers.org/blob/mast
 
 # Auto-invite page for your Slack community
 
-This repo also serves as a template for a neat-looking auto-invite page for your Slack community. It is loosely based on [outsideris/slack-invite-automation](https://github.com/outsideris/slack-invite-automation), but kept simpler and easier to customize. You can easily host it on [OpenShift](https://www.openshift.com/) or [Heroku](https://www.heroku.com/).
-
-Note: the code could use a bit more cleanup, but I was in a rush to open the Botmakers community :-)
+This repo also serves as a template for a neat-looking auto-invite page for your Slack community. It is loosely based on [outsideris/slack-invite-automation](https://github.com/outsideris/slack-invite-automation), but kept simpler and easier to customize. You can easily host it on [OpenShift](https://www.openshift.com/) or [Heroku](https://www.heroku.com/), or check out the [Glitch version](https://glitch.com/edit/#!/slack-invite).
 
 Running this thing is pretty simple:
 
@@ -20,14 +18,13 @@ Running this thing is pretty simple:
 1. Make a copy of `config-example.js` and call it `config.js`.
 2. Edit 'config.js':
  1. `community`: name of your community
- 2. `slackUrl`: URL of your community
- 3. `slacktoken`: get yours [here](https://api.slack.com/web#auth)
+ 2. `slack_url`: URL of your community
+ 3. `slack_token`: get yours [here](https://api.slack.com/custom-integrations/legacy-tokens)
 3. Make a copy of `visitor_stats-example.handlebars` (it's inside the `views/partials` folder) and call it `visitor_stats.handlebars`. Here you can paste your Google Analytics or StatCounter (or similar) code.
 4. Install dependencies with `npm install` (or `sudo npm install`, if necessary).
 5. I recommend using [pm2](https://github.com/Unitech/pm2) to run the app on your server.
 
 Enjoy!
-
 
 A few more notes:
 
@@ -36,9 +33,6 @@ About the **step 3** above: If you don't need to include this code, you can simp
 You can also edit the file `main/handlebars` inside the `views/layouts` folder and remove the line that says `{{> visitor_stats }}` and get rid of the file completely.
 
 As for hosting your signup page on Heroku, note that Heroku's free plan [forces your app to sleep for a few hours every day](https://www.heroku.com/pricing), so I don't recommend using Heroku if you expect a lot of traffic spread roughly evenly throughout the day, as you might lose signups.
-
-And finally, you might also want to update the [error messages](https://github.com/botwiki/botmakers.org/blob/master/botmakers.js#L49) to include your email/link to your Twitter page/etc.
-
 
 If you want to develop this app, you can run `gulp.js`. The app will run at `http://localhost:3011/`, and there is a proxy at `http://localhost:4000/` that has code hot swapping (changes to the styles or script files are immediately visible without reloading the page).
 

@@ -1,8 +1,12 @@
+/* Variables */
+
 @main-color: #525252;
 @background-color: #170c0c;
 @link-color: #333;
 @site-width: 1200px;
 @site-width-mobile: 800px;
+
+/* Styles */
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -14,12 +18,17 @@ body{
   color: @main-color;
   font-size: 1.2em;
   margin: 0;
-  min-height: 100%;
   height: 100%;
 }
+
 body{
   background: url('../images/background/geometry-alt.png');
+  position: relative;
+  padding-bottom: 20em;
+  min-height: 100%;
+
 }
+
 header,
 section,
 footer{
@@ -27,42 +36,48 @@ footer{
   margin: 0 auto;
 }
 
-section#content{
-  min-height: 100%;
-  background-color: #fff;
-  @media (min-width: @site-width) {
-    padding: 1em 2em;
-  }
-  div#content-inner{
-    max-width: @site-width;
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
 header p{
   @media (min-width: @site-width-mobile) {
     text-align: justify;
   }
 }
+
 section{
   font-weight: bold;
   min-height: 100%;
   margin: 0 auto;
-  padding: 0;
+  position: relative;
+  padding: 0 0 15em;
   border-left: 1px solid @main-color + #9a9a9a;
   border-right: 1px solid @main-color + #9a9a9a;
+
+  &#content{
+    // min-height: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    position: relative;
+
+    div#content-inner{
+      max-width: @site-width;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
 }
-form,p{
+
+form, p{
   padding: 0.5rem 1rem;
-  margin: 2em 0;
+  margin: 1em 0;
 }
+
 form{
   max-width: 960px;
-  margin: 0 auto 4em;
+  margin: 4em auto 6em;
   content:"";
   display:block;
   clear:both;
 }
+
 input,
 button{
   font-family: 'Merriweather Sans';
@@ -71,25 +86,30 @@ button{
   font-size: 0.8em;
   cursor: pointer;
 }
+
 input{
   border: 5px solid @background-color;
   float: none;
   width: 100%;
+
   @media(min-width: @site-width-mobile){
     width: 60%;
     float: left;
     height: 3em;
   }
 }
+
 input:focus{
   border-color:  @background-color + #333;
   outline: none;
   cursor: text;
 }
+
 input,
 input:focus{
   transition: border-color 0.3s;
 }
+
 button{
   color: #fff;
   font-weight: bold;
@@ -99,6 +119,7 @@ button{
   width: 100%;
   margin-top: 1em;
   border: 3px solid @background-color + #222;
+
   @media(min-width: @site-width-mobile){
     width: 40%;
     height: 3em;
@@ -107,6 +128,7 @@ button{
     border: none;
   }
 }
+
 h1{
   font-family: "Lobster";
   font-size: 4em;
@@ -114,28 +136,41 @@ h1{
   text-align: center;
   font-weight: normal;
   margin: 1rem auto 0;
+
   @media(max-width: @site-width-mobile){
       font-size: 8vmax;
   }
 }
+
 a{
   color: @link-color;
   transition: color 0.5s;
+
+  &:hover{
+    color: @link-color + #222;
+  }
 }
-a:hover{
-  color: @link-color + #222;
-}
+
 iframe.twitter-tweet,
 blockquote.twitter-tweet,
 twitterwidget{
   margin: 2em auto !important;
 }
+
 footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+
+
   border-top: 3px dashed @main-color + #9a9a9a;
   font-size: 0.8em;
   font-weight: normal;
   margin: 0 auto;
 }
+
 .chromeframe {
   margin: 0.2em 0;
   background: #ccc;
@@ -143,17 +178,19 @@ footer{
   padding: 5px;
 }
 
-img.logo{
-  display: block;
-  margin: 0 auto;
-  width: 20%;
-  max-width: @site-width/2;
-}
+img{
+  &.logo{
+    display: block;
+    margin: 0 auto -1em;
+    width: 20%;
+    max-width: @site-width/2;
+  }
 
-img.logo-slack{
-  height: 1.1em;
-  max-width: 100px;
-  vertical-align: bottom;
+  &.logo-slack{
+    height: 1.1em;
+    max-width: 100px;
+    vertical-align: bottom;
+  }
 }
 
 .keep-together{
@@ -162,13 +199,16 @@ img.logo-slack{
   }
 }
 
-a.hashtag{
-  font-style: italic;
-  text-decoration: none;
+a{
+  &.hashtag{
+    font-style: italic;
+    text-decoration: none;
+  }
+  &.hashtag:hover{
+    text-decoration: underline;
+  }
 }
-a.hashtag:hover{
-  text-decoration: underline;
-}
+
 
 .center-text{
   text-align: center;

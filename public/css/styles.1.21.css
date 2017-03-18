@@ -11,31 +11,19 @@ body {
   color: #525252;
   font-size: 1.2em;
   margin: 0;
-  min-height: 100%;
   height: 100%;
 }
 body {
   background: url('../images/background/geometry-alt.png');
+  position: relative;
+  padding-bottom: 20em;
+  min-height: 100%;
 }
 header,
 section,
 footer {
   width: 95%;
   margin: 0 auto;
-}
-section#content {
-  min-height: 100%;
-  background-color: #fff;
-}
-@media (min-width: 1200px) {
-  section#content {
-    padding: 1em 2em;
-  }
-}
-section#content div#content-inner {
-  max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
 }
 @media (min-width: 800px) {
   header p {
@@ -46,18 +34,29 @@ section {
   font-weight: bold;
   min-height: 100%;
   margin: 0 auto;
-  padding: 0;
+  position: relative;
+  padding: 0 0 15em;
   border-left: 1px solid #ececec;
   border-right: 1px solid #ececec;
+}
+section#content {
+  min-height: 100vh;
+  background-color: #fff;
+  position: relative;
+}
+section#content div#content-inner {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
 }
 form,
 p {
   padding: 0.5rem 1rem;
-  margin: 2em 0;
+  margin: 1em 0;
 }
 form {
   max-width: 960px;
-  margin: 0 auto 4em;
+  margin: 4em auto 6em;
   content: "";
   display: block;
   clear: both;
@@ -138,6 +137,11 @@ twitterwidget {
   margin: 2em auto !important;
 }
 footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
   border-top: 3px dashed #ececec;
   font-size: 0.8em;
   font-weight: normal;
@@ -151,7 +155,7 @@ footer {
 }
 img.logo {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto -1em;
   width: 20%;
   max-width: 600px;
 }

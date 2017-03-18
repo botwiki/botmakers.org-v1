@@ -1,4 +1,4 @@
-"strict";
+"use strict";
 
 function ready(fn) {
   if (document.readyState !== 'loading'){
