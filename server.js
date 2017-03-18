@@ -13,7 +13,6 @@ var express = require('express'),
       contact: config.contact
     };
 
-
 var loggingEnabled = false;
 
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
@@ -25,9 +24,11 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.get('/', function (req, res) {
-    res.render('home', {
-      community: config.community
-    });
+    res.render('home', community_info);
+});
+
+app.get('/coc', function (req, res) {
+    res.render('coc', community_info);
 });
 
 app.post('/invite', function(req, res) {
@@ -76,9 +77,8 @@ app.use(express.static(__dirname + '/public'));
 
 /*
   Note: This allows the app to be deployed to openshift.com or heroku.com. See https://github.com/botwiki/botmakers.org/issues/5#issuecomment-168426855 for a bit more detail.
-
-  Also, instead of 3011, you could use 8080, or any other port you want. 
 */
+
 app.set('port', process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 3011);
 app.set('ip', process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1');
 
