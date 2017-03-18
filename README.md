@@ -10,11 +10,13 @@ Also, here's a [list of bots](https://github.com/botwiki/botmakers.org/blob/mast
 
 # Auto-invite page for your Slack community
 
-This repo also serves as a template for a neat-looking auto-invite page for your Slack community. It is loosely based on [outsideris/slack-invite-automation](https://github.com/outsideris/slack-invite-automation), but kept simpler and easier to customize. You can easily host it on [OpenShift](https://www.openshift.com/) or [Heroku](https://www.heroku.com/), or check out the [Glitch version](https://glitch.com/edit/#!/slack-invite).
+This repo also serves as a template for a neat-looking auto-invite page for your Slack community. It is loosely based on [outsideris/slack-invite-automation](https://github.com/outsideris/slack-invite-automation), but kept simpler and easier to customize. You can easily host it on [OpenShift](https://www.openshift.com/) or [Heroku](https://www.heroku.com/).
+
+If you prefer a simpler setup, check out the [Glitch version](https://glitch.com/edit/#!/slack-invite) (see `README.md` in the sidebar for instructions).
 
 Running this thing is pretty simple:
 
-0. Clone this repo.
+0. Clone or download this repo.
 1. Make a copy of `config-example.js` and call it `config.js`.
 2. Edit 'config.js':
  1. `community`: name of your community
