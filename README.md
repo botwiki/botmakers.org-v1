@@ -1,8 +1,8 @@
-# Botmakers.org
+# Botmakers
 
 [![Join Botmakers!](https://botmakers.org/images/site-thumbnail-3.png)](http://botmakers.org)
 
-[Botmakers.org](http://botmakers.org) is the official [Botwiki.org](https://botwiki.org/) community, maintained by the [Botwiki.org team](https://github.com/botwiki). Image courtesy of [oldbookillustrations.com](http://www.oldbookillustrations.com/). Any questions? Need help? Reach out to [@fourtonfish](https://twitter.com/fourtonfish) or [stefan@fourtonfish.com](mailto:stefan@fourtonfish.com).
+[Botmakers](http://botmakers.org) is the official [Botwiki.org](https://botwiki.org/) community, maintained by the [Botwiki.org team](https://github.com/botwiki). Image courtesy of [oldbookillustrations.com](http://www.oldbookillustrations.com/). Any questions? Need help? Reach out to [@fourtonfish](https://twitter.com/fourtonfish) or [stefan@fourtonfish.com](mailto:stefan@fourtonfish.com).
 
 ***Note: All members must read and follow our [Code of Conduct](https://github.com/botwiki/botmakers.org/blob/master/Code%20of%20Conduct.md).***
 
