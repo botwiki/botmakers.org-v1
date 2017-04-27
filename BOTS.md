@@ -18,6 +18,12 @@ It would be really nice to turn this into a real game, for example, give people 
 
 Anything's possible on Slack :-)
 
+## slack-meme
+
+[![slack-https://botwiki.org/bots/slackbots/slack-meme/](https://botwiki.org/content/bots/slackbots/images/slack-meme.png)](https://botwiki.org/bots/slackbots/slack-meme/)
+
+Add memes to Slack with ease.
+
 ## slack-tableflip
 
 [![slack-tableflip](https://botwiki.org/content/bots/slackbots/images/slack-tableflip.png)](https://botwiki.org/bots/slackbots/slack-tableflip/)
