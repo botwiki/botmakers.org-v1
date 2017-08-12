@@ -59,8 +59,7 @@ section{
 
     div#content-inner{
       max-width: @site-width;
-      margin-right: auto;
-      margin-left: auto;
+      margin: 2em auto;
     }
   }
 }
@@ -88,9 +87,13 @@ button{
 }
 
 .btn-login{
-  float: right;
+  font-family: 'Merriweather Sans';
+  font-size: 0.7em;
+  position: absolute;
+  z-index: 10;
+  top: -2em;
+  right: 5px;
   padding: 10px 20px;
-  margin: 5px 5px 0 0;
   border-radius: 5px;
   text-decoration: none;
   background-color: @background-color;
