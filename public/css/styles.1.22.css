@@ -1,3 +1,5 @@
+/* Variables */
+/* Styles */
 *,
 *:before,
 *:after {
@@ -68,6 +70,24 @@ button {
   padding: 10px;
   font-size: 0.8em;
   cursor: pointer;
+}
+.btn-login {
+  float: right;
+  padding: 10px 20px;
+  margin: 5px 5px 0 0;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #170c0c;
+  color: #fff;
+}
+.btn-login:hover {
+  color: #fff;
+  background-color: #281d1d;
+}
+.btn-login,
+.btn-login:hover {
+  -webkit-transition: background-color 0.1s;
+  transition: background-color 0.1s;
 }
 input {
   border: 5px solid #170c0c;
@@ -156,7 +176,7 @@ footer {
 img.logo {
   display: block;
   margin: 0 auto -1em;
-  width: 20%;
+  width: 15%;
   max-width: 600px;
 }
 img.logo-slack {

@@ -87,6 +87,23 @@ button{
   cursor: pointer;
 }
 
+.btn-login{
+  float: right;
+  padding: 10px 20px;
+  margin: 5px 5px 0 0;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: @background-color;
+  color: #fff;
+  &:hover{
+    color: #fff;
+    background-color: @background-color + #111;
+  }
+  &, &:hover{
+    transition: background-color 0.1s;
+  }
+}
+
 input{
   border: 5px solid @background-color;
   float: none;
@@ -182,7 +199,7 @@ img{
   &.logo{
     display: block;
     margin: 0 auto -1em;
-    width: 20%;
+    width: 15%;
     max-width: @site-width/2;
   }
 
