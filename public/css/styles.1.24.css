@@ -48,8 +48,7 @@ section#content {
 }
 section#content div#content-inner {
   max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
 }
 form,
 p {
@@ -72,9 +71,13 @@ button {
   cursor: pointer;
 }
 .btn-login {
-  float: right;
+  font-family: 'Merriweather Sans';
+  font-size: 0.87em;
+  position: absolute;
+  z-index: 10;
+  top: 10px;
+  right: 10px;
   padding: 10px 20px;
-  margin: 5px 5px 0 0;
   border-radius: 5px;
   text-decoration: none;
   background-color: #170c0c;
@@ -176,8 +179,14 @@ footer {
 img.logo {
   display: block;
   margin: 0 auto -1em;
-  width: 15%;
+  width: 20%;
   max-width: 600px;
+}
+@media (max-width: 800px) {
+  img.logo {
+    width: 40%;
+    padding-top: 4em;
+  }
 }
 img.logo-slack {
   height: 1.1em;

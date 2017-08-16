@@ -59,7 +59,7 @@ section{
 
     div#content-inner{
       max-width: @site-width;
-      margin: 2em auto;
+      margin: 0 auto;
     }
   }
 }
@@ -88,11 +88,11 @@ button{
 
 .btn-login{
   font-family: 'Merriweather Sans';
-  font-size: 0.7em;
+  font-size: 0.87em;
   position: absolute;
   z-index: 10;
-  top: -2em;
-  right: 5px;
+  top: 10px;
+  right: 10px;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
@@ -202,8 +202,12 @@ img{
   &.logo{
     display: block;
     margin: 0 auto -1em;
-    width: 15%;
+    width: 20%;
     max-width: @site-width/2;
+    @media (max-width: @site-width-mobile) {
+      width: 40%;
+      padding-top: 4em;
+    }
   }
 
   &.logo-slack{
