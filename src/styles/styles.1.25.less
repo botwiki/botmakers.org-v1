@@ -34,6 +34,9 @@ section,
 footer{
   width: 95%;
   margin: 0 auto;
+  @media (max-width: @site-width-mobile) {
+    width: 100%;
+  }
 }
 
 header p{
@@ -47,9 +50,12 @@ section{
   min-height: 100%;
   margin: 0 auto;
   position: relative;
-  padding: 0 0 15em;
   border-left: 1px solid @main-color + #9a9a9a;
   border-right: 1px solid @main-color + #9a9a9a;
+
+  @media(min-width: @site-width-mobile){
+    padding: 0 0 15em;
+  }
 
   &#content{
     // min-height: 100%;
@@ -71,7 +77,8 @@ form, p{
 
 form{
   max-width: 960px;
-  margin: 4em auto 6em;
+  min-height: 3em;
+  margin: 2em auto;
   content:"";
   display:block;
   clear:both;
@@ -94,7 +101,6 @@ button{
   top: 10px;
   right: 10px;
   padding: 10px 20px;
-  border-radius: 5px;
   text-decoration: none;
   background-color: @background-color;
   color: #fff;
@@ -178,17 +184,26 @@ twitterwidget{
 }
 
 footer{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-
+  @media (min-width: @site-width-mobile) {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+  }
 
   border-top: 3px dashed @main-color + #9a9a9a;
   font-size: 0.8em;
   font-weight: normal;
   margin: 0 auto;
+
+  a{
+    font-weight: bold;
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
 }
 
 .chromeframe {

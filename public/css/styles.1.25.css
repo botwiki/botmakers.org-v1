@@ -27,6 +27,13 @@ footer {
   width: 95%;
   margin: 0 auto;
 }
+@media (max-width: 800px) {
+  header,
+  section,
+  footer {
+    width: 100%;
+  }
+}
 @media (min-width: 800px) {
   header p {
     text-align: justify;
@@ -37,9 +44,13 @@ section {
   min-height: 100%;
   margin: 0 auto;
   position: relative;
-  padding: 0 0 15em;
   border-left: 1px solid #ececec;
   border-right: 1px solid #ececec;
+}
+@media (min-width: 800px) {
+  section {
+    padding: 0 0 15em;
+  }
 }
 section#content {
   min-height: 100vh;
@@ -57,7 +68,8 @@ p {
 }
 form {
   max-width: 960px;
-  margin: 4em auto 6em;
+  min-height: 3em;
+  margin: 2em auto;
   content: "";
   display: block;
   clear: both;
@@ -78,7 +90,6 @@ button {
   top: 10px;
   right: 10px;
   padding: 10px 20px;
-  border-radius: 5px;
   text-decoration: none;
   background-color: #170c0c;
   color: #fff;
@@ -160,15 +171,26 @@ twitterwidget {
   margin: 2em auto !important;
 }
 footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
   border-top: 3px dashed #ececec;
   font-size: 0.8em;
   font-weight: normal;
   margin: 0 auto;
+}
+@media (min-width: 800px) {
+  footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+  }
+}
+footer a {
+  font-weight: bold;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
 }
 .chromeframe {
   margin: 0.2em 0;
