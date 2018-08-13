@@ -10,13 +10,13 @@
 html,
 body {
   font-family: "Source Serif Pro", serif;
-  color: #525252;
+  color: #170c0c;
+  background: #9156b7;
   font-size: 1.2em;
   margin: 0;
   height: 100%;
 }
 body {
-  background: url('../images/background/geometry-alt.png');
   position: relative;
   padding-bottom: 20em;
   min-height: 100%;
@@ -34,27 +34,68 @@ footer {
     width: 100%;
   }
 }
-@media (min-width: 800px) {
-  header p {
-    text-align: justify;
-  }
+header {
+  text-align: center;
+  margin: 1em auto;
+  padding: 1rem 0 2rem;
+}
+header p {
+  margin-bottom: 0;
+}
+header h1 {
+  margin: 0 auto;
+  font-family: "Lobster";
+  font-size: 6rem;
+  font-weight: normal;
+}
+header .emoji {
+  font-size: 4rem;
+  white-space: nowrap;
+}
+.strike {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 460px;
+  margin: 0 auto;
+}
+.strike span {
+  position: relative;
+  display: inline-block;
+}
+.strike span:before,
+.strike span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 9999px;
+  height: 1px;
+  background: #170c0c;
+}
+.strike span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.strike span:after {
+  left: 100%;
+  margin-left: 15px;
 }
 section {
   font-weight: bold;
   min-height: 100%;
   margin: 0 auto;
   position: relative;
-  border-left: 1px solid #ececec;
-  border-right: 1px solid #ececec;
 }
 @media (min-width: 800px) {
   section {
-    padding: 0 0 15em;
+    padding: 0 0 10em;
   }
 }
 section#content {
   min-height: 100vh;
-  background-color: #fff;
+  background: url('../images/background/geometry-alt-purple-2.png');
+  background-repeat: repeat;
   position: relative;
 }
 section#content div#content-inner {
@@ -144,26 +185,13 @@ button {
     border: none;
   }
 }
-h1 {
-  font-family: "Lobster";
-  font-size: 4em;
-  font-size: 12vmax;
-  text-align: center;
-  font-weight: normal;
-  margin: 1rem auto 0;
-}
-@media (max-width: 800px) {
-  h1 {
-    font-size: 8vmax;
-  }
-}
 a {
-  color: #333333;
+  color: #170c0c;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
 }
 a:hover {
-  color: #555555;
+  color: #281d1d;
 }
 iframe.twitter-tweet,
 blockquote.twitter-tweet,
@@ -171,7 +199,7 @@ twitterwidget {
   margin: 2em auto !important;
 }
 footer {
-  border-top: 3px dashed #ececec;
+  border-top: 4px dashed #392e2e;
   font-size: 0.8em;
   font-weight: normal;
   margin: 0 auto;

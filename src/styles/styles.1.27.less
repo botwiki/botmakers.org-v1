@@ -1,8 +1,8 @@
 /* Variables */
 
-@main-color: #525252;
+@main-color: #170c0c;
 @background-color: #170c0c;
-@link-color: #333;
+@link-color: #170c0c;
 @site-width: 1200px;
 @site-width-mobile: 800px;
 
@@ -16,17 +16,18 @@ html,
 body{
   font-family: "Source Serif Pro", serif;
   color: @main-color;
+  background: #9156b7;
   font-size: 1.2em;
   margin: 0;
   height: 100%;
 }
 
 body{
-  background: url('../images/background/geometry-alt.png');
+  // background: url('../images/background/geometry-alt-purple.png');
+  // background-repeat: repeat;
   position: relative;
   padding-bottom: 20em;
   min-height: 100%;
-
 }
 
 header,
@@ -39,28 +40,81 @@ footer{
   }
 }
 
-header p{
-  @media (min-width: @site-width-mobile) {
-    text-align: justify;
+header{
+  text-align: center;
+  margin: 1em auto;
+  padding: 1rem 0 2rem;
+
+  p{
+    margin-bottom: 0;
+  }
+
+  h1{
+    margin: 0 auto;
+    font-family: "Lobster";
+    font-size: 6rem;
+    font-weight: normal;
+  }
+
+  .emoji{
+    font-size: 4rem;
+    white-space: nowrap;
   }
 }
+
+
+.strike {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 460px;
+  margin: 0 auto;
+  span {
+    position: relative;
+    display: inline-block;
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      width: 9999px;
+      height: 1px;
+      background: @main-color;
+    }
+
+    &:before {
+      right: 100%;
+      margin-right: 15px;
+    }
+    &:after {
+      left: 100%;
+      margin-left: 15px;
+    }
+  }
+}
+
 
 section{
   font-weight: bold;
   min-height: 100%;
   margin: 0 auto;
   position: relative;
-  border-left: 1px solid @main-color + #9a9a9a;
-  border-right: 1px solid @main-color + #9a9a9a;
+  // border-left: 1px solid @main-color + #9a9a9a;
+  // border-right: 1px solid @main-color + #9a9a9a;
 
   @media(min-width: @site-width-mobile){
-    padding: 0 0 15em;
+    padding: 0 0 10em;
   }
 
   &#content{
     // min-height: 100%;
     min-height: 100vh;
-    background-color: #fff;
+    // background-color: #9156b7;
+    background: url('../images/background/geometry-alt-purple-2.png');
+    background-repeat: repeat;
+    position: relative;
+
     position: relative;
 
     div#content-inner{
@@ -155,25 +209,12 @@ button{
   }
 }
 
-h1{
-  font-family: "Lobster";
-  font-size: 4em;
-  font-size: 12vmax;
-  text-align: center;
-  font-weight: normal;
-  margin: 1rem auto 0;
-
-  @media(max-width: @site-width-mobile){
-      font-size: 8vmax;
-  }
-}
-
 a{
   color: @link-color;
   transition: color 0.5s;
 
   &:hover{
-    color: @link-color + #222;
+    color: @link-color + #111;
   }
 }
 
@@ -192,7 +233,7 @@ footer{
     padding: 1rem;
   }
 
-  border-top: 3px dashed @main-color + #9a9a9a;
+  border-top: 4px dashed @main-color + #222;
   font-size: 0.8em;
   font-weight: normal;
   margin: 0 auto;
