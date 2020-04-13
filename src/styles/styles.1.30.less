@@ -1,10 +1,10 @@
 /* Variables */
 
-@main-color: #170c0c;
-@background-color: #170c0c;
+@main-color: #2b0940;
+@background-color: #2b0940;
 @line-color: rgba(57, 46, 46, 0.5);
-@link-color: #170c0c;
-@site-width: 1200px;
+@link-color: #2b0940;
+@site-width: 900px;
 @site-width-mobile: 800px;
 
 /* Styles */
@@ -32,8 +32,7 @@ body{
 }
 
 header,
-section,
-footer{
+section{
   width: 95%;
   margin: 0 auto;
   @media (max-width: @site-width-mobile) {
@@ -180,7 +179,7 @@ input{
   width: 100%;
 
   @media(min-width: @site-width-mobile){
-    width: 60%;
+    width: 70%;
     float: left;
     height: 3em;
   }
@@ -208,7 +207,7 @@ button{
   border: 3px solid @background-color + #222;
 
   @media(min-width: @site-width-mobile){
-    width: 40%;
+    width: 30%;
     height: 3em;
     float: right;
     margin-top: 0em;
@@ -233,25 +232,22 @@ twitterwidget{
 }
 
 footer{
+  max-width: @site-width;  
+  
   @media (min-width: @site-width-mobile) {
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 1rem;
   }
 
-  border-top: 4px dashed @line-color;
-  font-size: 0.8em;
+  // border-top: 4px dashed @line-color;
+  font-size: 0.95em;
   font-weight: normal;
-  margin: 0 auto;
+  margin: 0 auto 2em;
 
   a{
     font-weight: bold;
-    text-decoration: none;
-    &:hover{
-      text-decoration: underline;
-    }
   }
 }
 
@@ -297,6 +293,9 @@ a{
   }
 }
 
+.text-justify{
+  text-align: justify;
+}
 
 .center-text{
   text-align: center;
