@@ -47,6 +47,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "stefan@fourtonfish.com",
+  "author": "stefan@stefanbohacek.com",
   "license": "MIT"
 }
