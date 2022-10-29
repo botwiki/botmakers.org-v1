@@ -16,7 +16,7 @@
     "request": "^2.88.2"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.10",
     "connect-livereload": "^0.4.0",
     "gifsicle": "^3.0.4",
     "gulp": "^3.6.2",
